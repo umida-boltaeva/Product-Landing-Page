@@ -1,4 +1,4 @@
-# Product-Landing-Page
+# Product Landing Page
 
 This is the fourth project to claim Responsive Web Design Certification on freeCodeCamp.org.
 
