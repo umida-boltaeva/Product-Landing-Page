@@ -1,0 +1,290 @@
+body {
+    background-color: rgb(238, 237, 237);
+    margin: 0;
+}
+
+header {
+    background-color: rgb(255, 178, 11);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+}
+
+#header-img {
+    width: 25%;
+    height: 25%;
+    display: flex;
+    padding: 15px;
+    align-items: flex-start;
+}
+
+#nav-bar {
+    display: flex;
+    width: 100%;
+}
+
+ul {
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+li {
+    color: rgb(0, 0, 0)000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-block;
+    width: 300px;
+    text-align: right;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: rgb(0, 0, 0)000;
+}
+
+.nav-link a:hover {
+    color: rgb(0, 0, 0)000;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: Merriweather;
+    padding: 20px;
+    margin-top: 130px;
+}
+
+#form {
+    text-align: center;
+}
+
+#email {
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(56, 55, 55);
+}
+
+
+@keyframes background-color {
+    100% {
+        background-color: rgb(255, 178, 11);
+    }
+}
+
+
+.flex {
+    display: flex;
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    padding: 15px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.flex h2 {
+    font-size: 30px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.boxes ol {
+    padding: 0;
+}
+
+.boxes li {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.box-1 {
+    width: 25%;
+    text-align: center;
+    margin: 40px;
+    border: #000 1px solid;
+
+}
+
+.box-1 h1 {
+    background-color: rgb(212, 210, 210);
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+.box-1 h2 {
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 40px;
+    padding: 20px;
+    font-family: Ubuntu;
+}
+
+.box-1 li {
+    font-weight: 400;
+    line-height: 25px;
+    font-family: Ubuntu;
+    align-items: center;
+    font-size: 25px;
+    line-height: 35px;
+    padding-bottom: 20px;
+}
+
+.box-2 {
+    width: 25%;
+    text-align: center;
+    margin: 40px;
+    border: #000 1px solid;
+}
+
+.box-2 h1 {
+    background-color: rgb(212, 210, 210);
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+.box-2 h2 {
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 40px;
+    padding: 20px;
+    font-family: Ubuntu;
+}
+
+.box-2 li {
+    font-weight: 400;
+    line-height: 25px;
+    font-family: Ubuntu;
+    align-items: center;
+    font-size: 25px;
+    line-height: 35px;
+    padding-bottom: 20px;
+}
+
+.box-3 {
+    width: 25%;
+    text-align: center;
+    margin: 40px;
+    border: #000 1px solid;
+}
+
+.box-3 h1 {
+    background-color: rgb(212, 210, 210);
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+.box-3 h2 {
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 40px;
+    padding: 20px;
+    font-family: Ubuntu;
+}
+
+.box-3 li {
+    font-weight: 400;
+    line-height: 25px;
+    font-family: Ubuntu;
+    align-items: center;
+    font-size: 25px;
+    line-height: 35px;
+    padding-bottom: 20px;
+}
+
+#submit {
+    font-weight: 500;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: Ubuntu;
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    background-color: rgb(248, 227, 41);
+}
+
+.btn:hover {
+    animation-name: background-color;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
+@keyframes background-color {
+    100% {
+        background-color: darkorange;
+    }
+}
+
+footer {
+    display: flex;
+    background-color: rgb(212, 210, 210);
+    position: relative;
+    width: 70%;
+    z-index: 1;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 15px 5px;
+}
+
+footer ul {
+    margin: 20px auto 10px;
+    align-items: flex-end;
+    text-align: right;
+    padding: 0;
+}
+
+footer li {
+    font-size: 25px;
+    text-transform: capitalize;
+    display: inline-block;
+    width: 142px;
+}
+
+.Copyright {
+    font-size: 25px;
+    color: rgb(73, 73, 73);
+    text-align: right;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    margin-top: 0;
+}
+
+.with-icon {
+    display: flex;
+}
+
+.right {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.left {
+    width: 20%;
+    margin-top: 70px;
+    font-size: 20px;
+    color: darkorange;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
